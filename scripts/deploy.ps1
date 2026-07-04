@@ -5,13 +5,21 @@ $ErrorActionPreference = "Stop"
 $Root = Split-Path -Parent $PSScriptRoot
 Set-Location $Root
 
-# Locate Python (PATH first, then the known 3.12 ARM64 install)
-$Python = "python"
-if (-not (Get-Command python -ErrorAction SilentlyContinue)) {
-    $Candidate = "$env:LOCALAPPDATA\Programs\Python\Python312-arm64\python.exe"
-    if (Test-Path $Candidate) { $Python = $Candidate }
-    else { throw "Python not found. Install Python 3.12 and 'pip install markdown'." }
+# Locate a working Python. Note: Windows ships a fake 'python' Store alias that
+# passes Get-Command but doesn't run, so we test each candidate by executing it.
+$Python = $null
+$Candidates = @(
+    "$env:LOCALAPPDATA\Programs\Python\Python312-arm64\python.exe",
+    "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe",
+    "python"
+)
+foreach ($c in $Candidates) {
+    try {
+        & $c --version *> $null
+        if ($LASTEXITCODE -eq 0) { $Python = $c; break }
+    } catch { }
 }
+if (-not $Python) { throw "Python not found. Install Python 3.12 and 'pip install markdown'." }
 
 Write-Host "Building site..."
 & $Python "$Root\scripts\build.py"
