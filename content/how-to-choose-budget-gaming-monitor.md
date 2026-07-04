@@ -72,7 +72,7 @@ Adaptive sync makes the monitor draw a frame *when the GPU finishes one*, instea
 ## After it arrives: the 5-minute setup that most people skip
 
 1. **Set the refresh rate** — Windows Settings → Display → Advanced display → pick 144/165Hz. It ships at 60Hz. This is the #1 wasted-monitor mistake on Earth.
-2. **Use the DisplayPort cable**, usually included. If yours shipped without one (it happens on the cheapest listings), a [Cable Matters DisplayPort cable](aff:B00E3D9UJG) is under $10 and removes the "HDMI port capped at 120Hz" failure mode entirely.
+2. **Use the DisplayPort cable**, usually included. If yours shipped without one (it happens on the cheapest listings), a [Cable Matters DisplayPort cable](aff:B005H3Q59U) is under $10 and removes the "HDMI port capped at 120Hz" failure mode entirely.
 3. **Enable adaptive sync** in the monitor OSD *and* the GPU driver panel.
 4. **Set overdrive to the middle setting** — max overdrive causes inverse ghosting (bright coronas) on budget panels.
 5. **Verify at testufo.com** — the UFO should look distinctly smoother at your new refresh rate, with frame rate matching your Hz.

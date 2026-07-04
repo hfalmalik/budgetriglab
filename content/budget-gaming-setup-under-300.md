@@ -26,10 +26,10 @@ Money runs out from the bottom up, never the top.
 | Item | Pick | Typical price |
 |---|---|---|
 | Monitor | AOC 24G2SP, 24" 1080p 165Hz IPS | $120 |
-| Mouse | [Logitech G203 Lightsync](aff:B07YB8RJ4V) | $25 |
+| Mouse | [Logitech G203 Lightsync](aff:B07YN82X3B) | $25 |
 | Mousepad | Large cloth pad, 450×400mm class | $13 |
-| Keyboard | [Keychron C3 Pro](aff:B0BXKF1TDD) TKL | $35 |
-| Headset | [HyperX Cloud Stinger 2](aff:B0B8QY5FLK) | $45 |
+| Keyboard | [Keychron C3 Pro](aff:B0CRDKFZWF) TKL | $35 |
+| Headset | [HyperX Cloud Stinger 2](aff:B0B8PGDMWK) | $45 |
 | Headset hook | Under-desk 3M hook | $8 |
 | Cable management | Velcro ties + adhesive clips kit | $10 |
 | Bias lighting | Basic USB LED strip behind monitor | $12 |
@@ -56,17 +56,17 @@ That leaves ~$30 of slack for tax, price swings, or one upgrade from the "flex s
 | Item | Pick | Typical price |
 |---|---|---|
 | Monitor | KOORUI 24E4, 24" 165Hz VA | $95 |
-| Mouse | [Redragon M711 Cobra](aff:B07176N5Q5) | $18 |
+| Mouse | [Redragon M711 Cobra](aff:B0751D11BL) | $18 |
 | Mousepad | Large cloth pad | $12 |
-| Keyboard | [Redragon K617](aff:B098LG3N6R) 60% | $27 |
-| Headset | [Razer Kraken X](aff:B07WNJTFHY) | $33 |
+| Keyboard | [Redragon K617](aff:B09BVD39P8) 60% | $27 |
+| Headset | [Razer Kraken X](aff:B07RMC5BRL) | $33 |
 | **Total** | | **~$185** |
 
 You keep the 165Hz monitor — that's non-negotiable in this house — and compress everything else. This setup outperforms most $500 setups from five years ago.
 
 ## The $300 console variant
 
-Swap mouse+keyboard+pad (~$70) for: a [GameSir T4 Kaleid](aff:B0BXW2FCFK) controller (~$35) and put ~$35 toward stepping up the headset (Corsair HS55) or a controller charging stand. Keep the same monitor — consoles love 120Hz modes over HDMI. Our [controllers under $40 guide](best-budget-pc-controllers-under-40.html) explains why budget Hall effect pads now beat first-party ones for longevity.
+Swap mouse+keyboard+pad (~$70) for: a [GameSir T4 Kaleid](aff:B0C14SZG16) controller (~$35) and put ~$35 toward stepping up the headset (Corsair HS55) or a controller charging stand. Keep the same monitor — consoles love 120Hz modes over HDMI. Our [controllers under $40 guide](best-budget-pc-controllers-under-40.html) explains why budget Hall effect pads now beat first-party ones for longevity.
 
 ## Buying strategy: how to pay less than list price
 

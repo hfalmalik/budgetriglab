@@ -38,18 +38,24 @@ You are the content engine for the affiliate site at $Root (BudgetRigLab - budge
 4. Run: python scripts/build.py  (use the python on PATH, or $env:LOCALAPPDATA\Programs\Python\Python312-arm64\python.exe if not found) and confirm it succeeds.
 "@
 
-# Invoke Claude Code headlessly.
+# Invoke Claude Code headlessly, with one retry — transient "Not logged in" blips
+# caused the 2026-07-04 scheduled-run failure.
 # Via cmd /c so stderr is merged by cmd, not PowerShell: with ErrorActionPreference=Stop,
 # PS 5.1 turns any native stderr line piped through 2>&1 into a terminating error.
 $PromptFile = Join-Path $LogDir "prompt-tmp.txt"
 [System.IO.File]::WriteAllText($PromptFile, $Prompt, (New-Object System.Text.UTF8Encoding $false))
-cmd /c "type `"$PromptFile`" | `"$ClaudeExe`" -p --permission-mode acceptEdits >> `"$Log`" 2>&1"
-Log "claude exited with code $LASTEXITCODE"
+foreach ($attempt in 1..2) {
+    Log "Starting claude (attempt $attempt)..."
+    cmd /c "type `"$PromptFile`" | `"$ClaudeExe`" -p --permission-mode acceptEdits >> `"$Log`" 2>&1"
+    Log "claude exited with code $LASTEXITCODE"
+    if ((Get-ChildItem "$Root\content\*.md").Count -gt $CountBefore) { break }
+    if ($attempt -eq 1) { Log "No new article yet - retrying in 60s..."; Start-Sleep -Seconds 60 }
+}
 Remove-Item $PromptFile -ErrorAction SilentlyContinue
 
 $CountAfter = (Get-ChildItem "$Root\content\*.md").Count
 if ($CountAfter -le $CountBefore) {
-    Log "WARNING: no new article file detected. Check the log: $Log"
+    Log "WARNING: no new article file detected after 2 attempts. Check the log: $Log"
     exit 1
 }
 

@@ -12,8 +12,8 @@ The one-line version: **the Stinger 2 is the better headset; the Kraken X is the
 
 ## The 30-second verdict
 
-- **Best sound, better mic, most people:** [HyperX Cloud Stinger 2](aff:B0B8QY5FLK)
-- **Glasses wearers, clamp-sensitive heads, marathon sessions:** [Razer Kraken X](aff:B07WNJTFHY)
+- **Best sound, better mic, most people:** [HyperX Cloud Stinger 2](aff:B0B8PGDMWK)
+- **Glasses wearers, clamp-sensitive heads, marathon sessions:** [Razer Kraken X](aff:B07RMC5BRL)
 - **Tied on:** price, plastic build, non-detachable mics, platform support (3.5mm everywhere).
 
 ## Comfort: the Kraken X's home turf

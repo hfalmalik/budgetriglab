@@ -14,7 +14,7 @@ Here are the four best controllers under $40 for PC (with console compatibility 
 
 **Typical price: $32–42**
 
-The [GameSir T4 Kaleid](aff:B0BXW2FCFK) is the budget controller to beat. Hall effect **sticks and triggers** mean drift is essentially impossible by design; micro-switch face buttons feel crisp and clicky; the transparent shell with tasteful RGB looks better than it has any right to; and polling on PC is fast enough for fighting games. It also works on Switch. The GameSir Nexus app allows dead zone tuning, trigger travel adjustment, and button remapping.
+The [GameSir T4 Kaleid](aff:B0C14SZG16) is the budget controller to beat. Hall effect **sticks and triggers** mean drift is essentially impossible by design; micro-switch face buttons feel crisp and clicky; the transparent shell with tasteful RGB looks better than it has any right to; and polling on PC is fast enough for fighting games. It also works on Switch. The GameSir Nexus app allows dead zone tuning, trigger travel adjustment, and button remapping.
 
 **Honest downsides:** wired only (USB-C, decent 2m cable) — the wireless T4 Cyclone variant costs a bit more and adds slight latency on Bluetooth. The clicky face buttons are louder than membrane buttons. D-pad is decent but not fighting-game elite. No headphone jack on PC in some modes.
 
@@ -24,7 +24,7 @@ The [GameSir T4 Kaleid](aff:B0BXW2FCFK) is the budget controller to beat. Hall e
 
 **Typical price: $25–33**
 
-8BitDo built its name on quality budget pads, and the [Ultimate C 2.4G](aff:B0BYMLYPZ4) is the wireless value king: a comfortable Xbox-style shape, 2.4GHz dongle with genuinely low latency (measured close to wired), Hall effect sticks on current revisions, and rock-solid firmware updated via 8BitDo's excellent Ultimate Software. Battery life runs ~25 hours.
+8BitDo built its name on quality budget pads, and the [Ultimate C 2.4G](aff:B0C2V6JLNJ) is the wireless value king: a comfortable Xbox-style shape, 2.4GHz dongle with genuinely low latency (measured close to wired), Hall effect sticks on current revisions, and rock-solid firmware updated via 8BitDo's excellent Ultimate Software. Battery life runs ~25 hours.
 
 **Honest downsides:** no back buttons, no trigger locks, no headphone jack — it's a clean basic pad, not a feature pad. Rumble is basic single-motor-feeling. Check the exact listing: 8BitDo sells many similar-looking models (Bluetooth-only "C" variants, Switch variants) with different internals.
 
@@ -34,7 +34,7 @@ The [GameSir T4 Kaleid](aff:B0BXW2FCFK) is the budget controller to beat. Hall e
 
 **Typical price: $25–38**
 
-The [PowerA Enhanced Wired](aff:B08FCX8HZ9) is the licensed budget option: officially certified for Xbox Series X|S and PC, with the exact familiar Xbox layout, two mappable back buttons (rare under $40), and a 3.5mm headphone jack — the only pad on this list with one.
+The [PowerA Enhanced Wired](aff:B08F454ZK5) is the licensed budget option: officially certified for Xbox Series X|S and PC, with the exact familiar Xbox layout, two mappable back buttons (rare under $40), and a 3.5mm headphone jack — the only pad on this list with one.
 
 **Honest downsides:** traditional potentiometer sticks, so long-term drift is a real possibility — this is the tradeoff for official licensing (Microsoft doesn't certify Hall effect third-party pads). No rumble in some budget variants — check the listing. Wired only, and the cable uses a breakaway connector some people dislike.
 
@@ -44,7 +44,7 @@ The [PowerA Enhanced Wired](aff:B08FCX8HZ9) is the licensed budget option: offic
 
 **Typical price: $33–40**
 
-The [EasySMX X10](aff:B0CGQ8N9XY) packs a startling feature list: Hall effect sticks and triggers, mechanical tactile face buttons and d-pad, two back buttons, tri-mode connectivity (2.4G dongle, Bluetooth, wired), and interchangeable magnetic faceplates. The grip shape is fuller than the Ultimate C, suiting bigger hands.
+The [EasySMX X10](aff:B0CR1MRC1P) packs a startling feature list: Hall effect sticks and triggers, mechanical tactile face buttons and d-pad, two back buttons, tri-mode connectivity (2.4G dongle, Bluetooth, wired), and interchangeable magnetic faceplates. The grip shape is fuller than the Ultimate C, suiting bigger hands.
 
 **Honest downsides:** the brand is less established — firmware updates and long-term support are a gamble compared to 8BitDo/GameSir. Bluetooth mode has noticeable latency (use the dongle). Quality control is mostly good but return-window testing is wise. Software is functional but rough.
 

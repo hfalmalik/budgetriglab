@@ -14,7 +14,7 @@ Here's what's actually worth your money, what each pick gets wrong, and how to c
 
 **Typical price: $30–37**
 
-The [Keychron C3 Pro](aff:B0BXKF1TDD) is the budget board that made everything else raise its game. For around $35 you get a tenkeyless (TKL) layout, **gasket-mounted** construction with sound-dampening foam — a feature that was exclusive to enthusiast boards not long ago — plus QMK/VIA support on newer revisions, meaning fully open-source remapping that never needs vendor software. Stock Keychron red switches are smooth, and the board sounds deeper and less rattly than anything else at the price.
+The [Keychron C3 Pro](aff:B0CRDKFZWF) is the budget board that made everything else raise its game. For around $35 you get a tenkeyless (TKL) layout, **gasket-mounted** construction with sound-dampening foam — a feature that was exclusive to enthusiast boards not long ago — plus QMK/VIA support on newer revisions, meaning fully open-source remapping that never needs vendor software. Stock Keychron red switches are smooth, and the board sounds deeper and less rattly than anything else at the price.
 
 **Honest downsides:** the base version is wired-only and red-backlight-only (RGB costs ~$5 more). Keycaps are basic ABS and will shine with use. No hot-swap on the cheapest variant — check the listing version.
 
@@ -34,7 +34,7 @@ The [Redragon K552](aff:B016MAK38U) is probably the best-selling budget mechanic
 
 **Typical price: $35–45**
 
-The [Royal Kludge RK61](aff:B07YBQ4HZS) crams tri-mode connectivity — Bluetooth (3 devices), 2.4 GHz dongle, and USB-C wired — into a 60% board under $45, usually with **hot-swappable** sockets so you can replace or upgrade switches with zero soldering. The tiny footprint frees up huge mousepad space, which FPS players with low sensitivity genuinely benefit from.
+The [Royal Kludge RK61](aff:B085ZS1TDQ) crams tri-mode connectivity — Bluetooth (3 devices), 2.4 GHz dongle, and USB-C wired — into a 60% board under $45, usually with **hot-swappable** sockets so you can replace or upgrade switches with zero soldering. The tiny footprint frees up huge mousepad space, which FPS players with low sensitivity genuinely benefit from.
 
 **Honest downsides:** 60% means no arrow keys, no F-row, no home cluster — everything lives on an Fn layer, and the adjustment takes a solid week. Stabilizers on the big keys rattle out of the box (a $0 fix with careful lubing, but still). Battery life with backlight on is mediocre; turn the LEDs off and it's fine. Software is clunky.
 
@@ -46,7 +46,7 @@ The [Royal Kludge RK61](aff:B07YBQ4HZS) crams tri-mode connectivity — Bluetoot
 
 **Typical price: $40–50**
 
-The [GK61](aff:B0B3T4M5QQ) family is the budget board for people who plan to mod. Hot-swap sockets accept 3-pin and 5-pin switches, the optical-switch variants have effectively unlimited switch lifespan, and the case ecosystem (plates, foam, custom cables) is huge because the layout is standard. Per-key RGB is bright and fully programmable.
+The [GK61](aff:B07PT9NRRY) family is the budget board for people who plan to mod. Hot-swap sockets accept 3-pin and 5-pin switches, the optical-switch variants have effectively unlimited switch lifespan, and the case ecosystem (plates, foam, custom cables) is huge because the layout is standard. Per-key RGB is bright and fully programmable.
 
 **Honest downsides:** stock switches are the weakest part — budget optical/Gateron clones that feel fine but not special. Software is genuinely bad (fiddly macro editor, occasional profile bugs). Same 60% learning curve as the RK61. Quality control varies between sub-brands; buy from a listing with recent reviews.
 
@@ -56,7 +56,7 @@ The [GK61](aff:B0B3T4M5QQ) family is the budget board for people who plan to mod
 
 **Typical price: $23–30**
 
-The [Redragon K617](aff:B098LG3N6R) is the "I have $25 and I want mechanical" answer. It's a 60% wired board with hot-swap sockets (rare at this price), dust-proof red linear switches, and white/pink/mixed colorways that became a TikTok fixture. Typing feel is legitimately decent — light, smooth, a bit hollow-sounding.
+The [Redragon K617](aff:B09BVD39P8) is the "I have $25 and I want mechanical" answer. It's a 60% wired board with hot-swap sockets (rare at this price), dust-proof red linear switches, and white/pink/mixed colorways that became a TikTok fixture. Typing feel is legitimately decent — light, smooth, a bit hollow-sounding.
 
 **Honest downsides:** hollow, high-pitched case sound; ABS keycaps shine within months; wired only. The hot-swap sockets are the saving grace — drop in $15 Gateron Yellows later and it punches way above $25.
 

@@ -14,7 +14,7 @@ We rank by three things, in order: **comfort** (you wear it for hours), **mic cl
 
 **Typical price: $35–50**
 
-The [HyperX Cloud Stinger 2](aff:B0B8QY5FLK) is the safest headset purchase under $60. At 275 g it's genuinely light, the memory-foam earcups and adjustable steel slider fit almost every head, and the 50mm drivers have a warm, slightly bass-boosted signature that works for both games and casual music. The swivel-to-mute mic (flip it up, it mutes — with an audible click) is clear enough that nobody on your team will complain. DTS spatial audio is included via code, and it works on PC, PS5, Xbox, and Switch through the 3.5mm jack.
+The [HyperX Cloud Stinger 2](aff:B0B8PGDMWK) is the safest headset purchase under $60. At 275 g it's genuinely light, the memory-foam earcups and adjustable steel slider fit almost every head, and the 50mm drivers have a warm, slightly bass-boosted signature that works for both games and casual music. The swivel-to-mute mic (flip it up, it mutes — with an audible click) is clear enough that nobody on your team will complain. DTS spatial audio is included via code, and it works on PC, PS5, Xbox, and Switch through the 3.5mm jack.
 
 **Honest downsides:** it's plastic everywhere — treat it gently at the hinge points. The pleather earpads get warm in hot rooms and will start flaking after 18–24 months of daily use (replacements are ~$15). The mic doesn't detach. No wireless, obviously.
 
@@ -24,7 +24,7 @@ The [HyperX Cloud Stinger 2](aff:B0B8QY5FLK) is the safest headset purchase unde
 
 **Typical price: $40–60**
 
-The [Corsair HS55 Stereo](aff:B09ZW6VZLL) costs a bit more than the Stinger 2 and justifies it with better hinges (metal-reinforced), leatherette memory foam that clamps less on big heads, and one of the clearest mics in the price class — noticeably fuller-sounding than the Stinger's on Discord. Sound is more neutral than the Stinger, which competitive FPS players tend to prefer for footstep clarity.
+The [Corsair HS55 Stereo](aff:B09ZFCB2RD) costs a bit more than the Stinger 2 and justifies it with better hinges (metal-reinforced), leatherette memory foam that clamps less on big heads, and one of the clearest mics in the price class — noticeably fuller-sounding than the Stinger's on Discord. Sound is more neutral than the Stinger, which competitive FPS players tend to prefer for footstep clarity.
 
 **Honest downsides:** the flip-to-mute mic doesn't detach, the earcups are on the smaller side (very large ears may touch the driver plate), and at full $60 price the value is merely fine — catch it in the frequent $40 sales.
 
@@ -34,7 +34,7 @@ The [Corsair HS55 Stereo](aff:B09ZW6VZLL) costs a bit more than the Stinger 2 an
 
 **Typical price: $30–40**
 
-The [Razer Kraken X](aff:B07WNJTFHY) is a featherweight at 250 g with unusually soft clamping force and dedicated channels in the padding for glasses arms — if headsets give you temple pain, this is the fix. Sound is bass-forward and fun, and 7.1 virtual surround is available via software on PC (leave it off for competitive play; stereo positioning is more accurate).
+The [Razer Kraken X](aff:B07RMC5BRL) is a featherweight at 250 g with unusually soft clamping force and dedicated channels in the padding for glasses arms — if headsets give you temple pain, this is the fix. Sound is bass-forward and fun, and 7.1 virtual surround is available via software on PC (leave it off for competitive play; stereo positioning is more accurate).
 
 **Honest downsides:** the all-plastic frame feels the cheapest on this list and creaks a bit. Bass-heavy tuning muddies footstep detail slightly compared to the HS55. Non-detachable mic is average — fine for Discord, not for streaming. It's a comfort pick, not an audio pick. See our full [Stinger 2 vs Kraken X head-to-head](hyperx-cloud-stinger-2-vs-razer-kraken-x.html).
 
@@ -44,7 +44,7 @@ The [Razer Kraken X](aff:B07WNJTFHY) is a featherweight at 250 g with unusually 
 
 **Typical price: $40–55**
 
-The [Logitech G335](aff:B08YHK5W7V) uses a suspension ski-band design (no hard headband pressure point) and weighs just 240 g — many people forget they're wearing it. The fabric earpads run cooler than pleather, colorways are genuinely nice, and the flip-to-mute mic is solid.
+The [Logitech G335](aff:B08KKBSDTY) uses a suspension ski-band design (no hard headband pressure point) and weighs just 240 g — many people forget they're wearing it. The fabric earpads run cooler than pleather, colorways are genuinely nice, and the flip-to-mute mic is solid.
 
 **Honest downsides:** fabric pads isolate less — you'll hear your room, and your room will faintly hear your game. Sound is balanced but unexciting, with modest bass. Volume roller is on the earcup and easy to nudge accidentally. Usually the priciest pick here at full price.
 
@@ -54,7 +54,7 @@ The [Logitech G335](aff:B08YHK5W7V) uses a suspension ski-band design (no hard h
 
 **Typical price: $30–40**
 
-The [Redragon H510 Zeus](aff:B07R4H941P) is the enthusiast-on-a-budget pick: 53mm drivers with a surprisingly detailed, spacious sound that beats everything above in pure audio quality per dollar, plus a **detachable** mic and both 3.5mm and USB (7.1) connection options in the box. Velour-style spare earpads are sometimes included depending on the version.
+The [Redragon H510 Zeus](aff:B07PSCCC78) is the enthusiast-on-a-budget pick: 53mm drivers with a surprisingly detailed, spacious sound that beats everything above in pure audio quality per dollar, plus a **detachable** mic and both 3.5mm and USB (7.1) connection options in the box. Velour-style spare earpads are sometimes included depending on the version.
 
 **Honest downsides:** at 380+ g it's by far the heaviest here, and the clamp is firm — comfort is its weak spot, the exact opposite tradeoff of the G335. Build is chunky old-school plastic. Software for the USB mode is forgettable; use it in plain stereo.
 

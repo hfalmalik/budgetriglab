@@ -14,7 +14,7 @@ Here are the five mice we'd actually buy under $30, in order, followed by a spec
 
 **Typical price: $22–30**
 
-The [Logitech G203 Lightsync](aff:B07YB8RJ4V) has been the default budget recommendation for years, and nothing has dethroned it. The 8,000 DPI sensor (Logitech's Mercury) is flawless in practice — no jitter, no angle snapping, no spin-outs even at fast flick speeds. Click latency is excellent, the shape is a safe symmetrical design that suits claw and fingertip grips for small-to-medium hands, and Logitech G HUB software lets you set DPI steps and remap buttons, then saves them to onboard memory so you never need the software again.
+The [Logitech G203 Lightsync](aff:B07YN82X3B) has been the default budget recommendation for years, and nothing has dethroned it. The 8,000 DPI sensor (Logitech's Mercury) is flawless in practice — no jitter, no angle snapping, no spin-outs even at fast flick speeds. Click latency is excellent, the shape is a safe symmetrical design that suits claw and fingertip grips for small-to-medium hands, and Logitech G HUB software lets you set DPI steps and remap buttons, then saves them to onboard memory so you never need the software again.
 
 **Honest downsides:** at 85 g it's noticeably heavier than modern ultralights. The rubber-coated cable is stiff by 2026 standards — a $8 paracord replacement or a mouse bungee fixes most of it. Palm-grippers with large hands will find it too small.
 
@@ -24,7 +24,7 @@ The [Logitech G203 Lightsync](aff:B07YB8RJ4V) has been the default budget recomm
 
 **Typical price: $27–30 (regularly on sale)**
 
-The [HyperX Pulsefire Haste](aff:B08NSGB1DK) launched at $50 but routinely sells at or under $30 now, which makes it the best pure-FPS value on this list. It weighs just 59 g thanks to a honeycomb shell, has a genuinely flexible paracord-style cable, TTC Golden dust-resistant switches, and a PixArt 3335 sensor (16,000 DPI) that's indistinguishable from flagship sensors in blind testing. Grip tape comes in the box.
+The [HyperX Pulsefire Haste](aff:B08NSJFNSS) launched at $50 but routinely sells at or under $30 now, which makes it the best pure-FPS value on this list. It weighs just 59 g thanks to a honeycomb shell, has a genuinely flexible paracord-style cable, TTC Golden dust-resistant switches, and a PixArt 3335 sensor (16,000 DPI) that's indistinguishable from flagship sensors in blind testing. Grip tape comes in the box.
 
 **Honest downsides:** the honeycomb holes bother some people (crumbs, sweat, aesthetics — it's sealed inside, so damage isn't a real concern). The shell has slight flex if you death-grip it. Software is HyperX NGENUITY, which is mediocre, but you can set it and forget it.
 
@@ -44,7 +44,7 @@ Wireless under $30 used to mean laggy junk. The [Logitech G305](aff:B07CMS5Q6P) 
 
 **Typical price: $17–20**
 
-Redragon is the king of "how is this so cheap?" and the [M711 Cobra](aff:B07176N5Q5) is its best mouse. You get a 10,000 DPI PixArt sensor, seven programmable buttons, and full RGB for under $20. The shape is a larger symmetrical design that suits palm grip better than the G203.
+Redragon is the king of "how is this so cheap?" and the [M711 Cobra](aff:B0751D11BL) is its best mouse. You get a 10,000 DPI PixArt sensor, seven programmable buttons, and full RGB for under $20. The shape is a larger symmetrical design that suits palm grip better than the G203.
 
 **Honest downsides:** it's 106 g — genuinely heavy. Switch quality is a lottery; most units are fine, but double-click issues after a year or two are more common than with Logitech. Software feels dated. This is the pick when every dollar counts, not the pick when you have $28.
 
@@ -54,7 +54,7 @@ Redragon is the king of "how is this so cheap?" and the [M711 Cobra](aff:B07176N
 
 **Typical price: $30–40**
 
-The wired [Razer Cobra](aff:B0C3F4M8ZK) sits right at the edge of this budget when discounted. It weighs 58 g **without** honeycomb holes, uses Razer's optical switches (no double-click failures, ever, by design), and has Chroma RGB. The 8,500 DPI sensor is derived from Razer's higher-end optics and performs flawlessly.
+The wired [Razer Cobra](aff:B0C51J2ZXN) sits right at the edge of this budget when discounted. It weighs 58 g **without** honeycomb holes, uses Razer's optical switches (no double-click failures, ever, by design), and has Chroma RGB. The 8,500 DPI sensor is derived from Razer's higher-end optics and performs flawlessly.
 
 **Honest downsides:** at full price ($40) it's out of scope for this list. It's small — large-handed palm grippers should skip it. Razer Synapse software is heavy and nags you to log in; set your DPI and uninstall it.
 

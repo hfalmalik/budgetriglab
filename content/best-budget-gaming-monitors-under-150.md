@@ -14,7 +14,7 @@ The budget monitor market is flooded with no-name panels, and unlike mice, a bad
 
 **Typical price: $110–140**
 
-The [AOC 24G2SP](aff:B09FRRR2GL) is the budget monitor that reviewers have recommended for half a decade, in successively better revisions. You get a 24-inch 1080p **IPS** panel at 165Hz, ~1ms MPRT response, FreeSync Premium (G-Sync compatible in practice), and — rare at this price — a fully adjustable stand with height, tilt, and swivel. IPS means colors and viewing angles that VA and TN panels at this price can't match, so it doubles as a good all-purpose screen.
+The [AOC 24G2SP](aff:B09WP72XH8) is the budget monitor that reviewers have recommended for half a decade, in successively better revisions. You get a 24-inch 1080p **IPS** panel at 165Hz, ~1ms MPRT response, FreeSync Premium (G-Sync compatible in practice), and — rare at this price — a fully adjustable stand with height, tilt, and swivel. IPS means colors and viewing angles that VA and TN panels at this price can't match, so it doubles as a good all-purpose screen.
 
 **Honest downsides:** IPS glow in dark scenes is visible (an IPS trait, not a defect). Contrast (~1000:1) makes dark-room horror games look grayish next to a VA panel. The OSD joystickless button controls are annoying. HDR is nominally supported and not worth enabling.
 
@@ -24,7 +24,7 @@ The [AOC 24G2SP](aff:B09FRRR2GL) is the budget monitor that reviewers have recom
 
 **Typical price: $85–110**
 
-The [KOORUI 24E4](aff:B0B25XCZHD) is the aggressive-value pick: 24-inch 1080p **VA** panel at 165Hz, FreeSync, for regularly under $100. KOORUI is a sub-brand of HKC, one of the world's largest actual panel manufacturers, which is how the price works. VA gives you ~3000:1 contrast — dark scenes look genuinely better than on the AOC.
+The [KOORUI 24E4](aff:B0BX5WFS8N) is the aggressive-value pick: 24-inch 1080p **VA** panel at 165Hz, FreeSync, for regularly under $100. KOORUI is a sub-brand of HKC, one of the world's largest actual panel manufacturers, which is how the price works. VA gives you ~3000:1 contrast — dark scenes look genuinely better than on the AOC.
 
 **Honest downsides:** VA smearing — dark pixel transitions leave faint trails in fast motion, noticeable in dark fast games (Apex at night, Hunt: Showdown). Tilt-only stand with no height adjustment (budget $20 for a VESA arm, or use books — really). Quality control is more variable than AOC; buy from a seller with easy returns and check for dead pixels on day one.
 
@@ -34,7 +34,7 @@ The [KOORUI 24E4](aff:B0B25XCZHD) is the aggressive-value pick: 24-inch 1080p **
 
 **Typical price: $75–100**
 
-Sceptre's [E24 series](aff:B07R7XZDQL) at 75Hz — or its 165Hz gaming variants when on sale near $100 — is the floor of what we'd recommend. Sceptre is a legitimate US-based budget brand with actual customer service, which cannot be said for most sub-$100 Amazon monitor listings. Panels are unremarkable but honest, and the built-in speakers (bad, but present) can be a stopgap.
+Sceptre's [E24 series](aff:B00QSUMKYA) at 75Hz — or its 165Hz gaming variants when on sale near $100 — is the floor of what we'd recommend. Sceptre is a legitimate US-based budget brand with actual customer service, which cannot be said for most sub-$100 Amazon monitor listings. Panels are unremarkable but honest, and the built-in speakers (bad, but present) can be a stopgap.
 
 **Honest downsides:** the 75Hz models are only worth it if your total budget is truly capped — 75Hz is a small upgrade over 60Hz. Stands are tilt-only and wobbly. Color accuracy out of the box is mediocre; nudge the presets.
 

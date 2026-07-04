@@ -51,22 +51,22 @@ Prices are typical U.S. street prices in 2026 and bounce around on sale. Owner v
 ### Palm grip — Razer DeathAdder Essential (~$25)
 The DeathAdder shape is the reference ergonomic palm-grip mouse, and the Essential is its budget wired version: a tall right-handed hump that fills a medium-to-large hand, a solid 6,400 DPI optical sensor (plenty), and grippy textured sides. It's a "put your hand down and relax" mouse.
 **Honest downside:** at ~96g with a non-braided rubber cable, it's heavy and a bit draggy by modern standards — fine for palm grip, but flick-shot players will notice the mass. The rubber coating can also get slick with sweat over a long summer session. We put it head-to-head with the G203 in [this $25 mouse comparison](logitech-g203-vs-razer-deathadder-essential.html).
-[Razer DeathAdder Essential](aff:B07LGF3JVM)
+[Razer DeathAdder Essential](aff:B094PS5RZQ)
 
 ### Claw grip — Logitech G203 Lightsync (~$25)
 A short, safe, ambidextrous-ish egg shape with a subtle rear hump — an ideal claw anchor for small-to-medium hands. It's light-ish (85g), has Logitech's excellent main-button switches, a flexible cable, and the reliable but honest budget-grade sensor. It's the mouse we recommend more than any other under $30.
 **Honest downside:** the flat, low profile that makes it great for claw leaves large-handed *palm* users with no back support — this is a claw/fingertip shape, not an ergo one. The side grips are smooth plastic, not rubber, so they can feel slippery until you're used to them.
-[Logitech G203 Lightsync](aff:B07GBZ4Q68)
+[Logitech G203 Lightsync](aff:B07YN82X3B)
 
 ### Claw/fingertip hybrid — Glorious Model O (~$45–50)
 If you can stretch past $30, the honeycomb-shell Model O is a genuine tier up: 67g of drilled-out lightness, a flexible paracord-style cable that feels wireless, and a medium-small ambidextrous shape that suits both claw and fingertip. It's the cheapest way to feel what a "modern" lightweight FPS mouse is like.
 **Honest downside:** the honeycomb holes are a magnet for dust, crumbs, and the occasional horrified glance — and they mean you should never eat greasy snacks over it. Some users also dislike touching the internals through the shell. It's also the priciest pick here and overkill for casual play.
-[Glorious Model O](aff:B07S3P4TVS)
+[Glorious Model O](aff:B07LDH3TWM)
 
 ### Fingertip grip — Razer Viper Mini (~$25)
 Small (118mm), light (61g), symmetrical, and low — purpose-built for fingertip control and small hands. The lightest mouse on this list, with a genuinely good sensor for the price and a flexible "Speedflex" cable that barely resists.
 **Honest downside:** it is *small*. If your hand is over ~18cm it'll feel like clicking a matchbox, and palm-grip users will hate it. The featherweight also means it can feel less planted for players used to a heavy mouse.
-[Razer Viper Mini](aff:B084YMH9BX)
+[Razer Viper Mini](aff:B084W6W9WB)
 
 ## Wired vs wireless, weight, and skates — the fit details that finish the job
 

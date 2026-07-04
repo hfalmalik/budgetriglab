@@ -12,8 +12,8 @@ The short answer: **this is a hand-size and grip-style question, not a specs que
 
 ## The 30-second verdict
 
-- **Hands under ~18cm, claw or fingertip grip, fast-paced shooters:** [Logitech G203 Lightsync](aff:B07YB8RJ4V)
-- **Hands over ~18.5cm, palm grip, all-day comfort:** [Razer DeathAdder Essential](aff:B07GBZ4Q68)
+- **Hands under ~18cm, claw or fingertip grip, fast-paced shooters:** [Logitech G203 Lightsync](aff:B07YN82X3B)
+- **Hands over ~18.5cm, palm grip, all-day comfort:** [Razer DeathAdder Essential](aff:B094PS5RZQ)
 - **Tied on:** sensor performance, price, cable quality (both mediocre), durability reputation.
 
 (Hand size = base of palm to tip of middle finger.)

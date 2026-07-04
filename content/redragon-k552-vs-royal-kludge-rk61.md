@@ -13,7 +13,7 @@ This comparison is easy to get right once you answer two questions: **do you nee
 ## The 30-second verdict
 
 - **Want arrow keys, F-keys, maximum durability, wired is fine:** [Redragon K552](aff:B016MAK38U)
-- **Want wireless, small footprint, and switch-swapping freedom:** [Royal Kludge RK61](aff:B07YBQ4HZS)
+- **Want wireless, small footprint, and switch-swapping freedom:** [Royal Kludge RK61](aff:B085ZS1TDQ)
 - **Tied on:** typing quality per dollar (different but comparable), RGB options, value.
 
 ## Layout: TKL vs 60% — the decision that matters
