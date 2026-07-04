@@ -43,9 +43,41 @@ AFF_RE = re.compile(r'href="aff:([A-Za-z0-9]+)"')
 
 # ---------------------------------------------------------------- helpers
 
+# Cross-promotion: EmpireHQ/links.json (Desktop\EmpireHQ) is the single source
+# of truth for youtube_url / gumroad_url; config.json values are the fallback.
+# site_url always comes from config.json (it anchors canonicals/sitemap/RSS).
+LINKS_FILE = ROOT.parent / "EmpireHQ" / "links.json"
+
+
 def load_config():
     with open(ROOT / "config.json", encoding="utf-8") as f:
-        return json.load(f)
+        cfg = json.load(f)
+    try:
+        links = json.loads(LINKS_FILE.read_text(encoding="utf-8"))
+        for key in ("youtube_url", "gumroad_url"):
+            if str(links.get(key) or "").strip():
+                cfg[key] = str(links[key]).strip()
+    except Exception:
+        pass  # missing/unreadable links.json -> plain config.json behavior
+    return cfg
+
+
+def promo_links(cfg):
+    """(label, url) pairs for the non-empty cross-promo URLs.
+    Empty values yield no pairs, so no dead links ever render."""
+    pairs = []
+    if str(cfg.get("youtube_url") or "").strip():
+        pairs.append(("Watch us on YouTube", str(cfg["youtube_url"]).strip()))
+    if str(cfg.get("gumroad_url") or "").strip():
+        pairs.append(("Our digital products", str(cfg["gumroad_url"]).strip()))
+    return pairs
+
+
+def promo_links_html(cfg, sep=" &middot; "):
+    return sep.join(
+        f'<a href="{escape(url)}" rel="noopener" target="_blank">{escape(label)}</a>'
+        for label, url in promo_links(cfg)
+    )
 
 
 def load_template(name):
@@ -263,6 +295,7 @@ def article_card(a):
 
 def build_page(base, cfg, *, title, description, canonical, content,
                og_type="website", jsonld=""):
+    links = promo_links_html(cfg)
     return render(
         base,
         site_name=cfg["site_name"],
@@ -275,6 +308,7 @@ def build_page(base, cfg, *, title, description, canonical, content,
         content=content,
         jsonld=jsonld,
         year=datetime.now().year,
+        footer_links=f"<p>{links}</p>" if links else "",
     )
 
 
@@ -421,6 +455,10 @@ def main():
         meta, body = parse_frontmatter(path.read_text(encoding="utf-8"), path)
         slug = slugify(path.stem)
         html = md_to_html(body, cfg)
+        # Cross-promotion on the About page — only when URLs exist (see promo_links)
+        if slug == "about" and promo_links(cfg):
+            html += ("<h2>More from us</h2><p>BudgetRigLab is part of a small "
+                     f"family of projects: {promo_links_html(cfg)}.</p>")
         page = build_page(base, cfg, title=f'{meta["title"]} — {cfg["site_name"]}',
                           description=meta["description"],
                           canonical=f"{site_url}/{slug}.html",

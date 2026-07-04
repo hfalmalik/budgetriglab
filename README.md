@@ -111,6 +111,14 @@ Logs land in `scripts\logs\`. Requirements: Claude Code CLI installed and authen
 
 Every article must have: 1200+ words; specific products with realistic street prices; **at least one honest downside per product**; a markdown comparison table; an FAQ section; 2–3 internal links to related articles; `aff:` links for products; a frontmatter block matching the format above. Article types rotate between "best X under $Y" listicles, head-to-head comparisons, and how-to guides.
 
+## Cross-promotion (EmpireHQ)
+
+`scripts/build.py` reads `Desktop\EmpireHQ\links.json` (single source of truth,
+see its `_readme`) and adds "Watch us on YouTube" / "Our digital products" links
+to the footer and About page — but **only** for non-empty URLs, so no dead links
+ever ship. Fill in `youtube_url` / `gumroad_url` there (or in `config.json` as
+fallback) and redeploy; a missing/broken links.json is silently ignored.
+
 ## Maintenance
 
 - **Change site name/URL/tag:** `config.json`, then rebuild.
