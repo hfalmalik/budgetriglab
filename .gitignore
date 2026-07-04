@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Legacy/alternate build output location (site builds into docs/, which IS committed for GitHub Pages)
+site/
+
+# OS noise
+Thumbs.db
+Desktop.ini
