@@ -94,7 +94,113 @@ def rewrite_affiliate_links(html, tag):
 
 def md_to_html(body, cfg):
     html = markdown.markdown(body, extensions=MD_EXTENSIONS)
-    return rewrite_affiliate_links(html, cfg["affiliate_tag"])
+    html = rewrite_affiliate_links(html, cfg["affiliate_tag"])
+    return wrap_tables(html)
+
+
+TABLE_RE = re.compile(r"<table>.*?</table>", re.S)
+
+
+def wrap_tables(html):
+    """Wrap every table in a scroll container so wide comparison tables
+    don't break the layout on ~380px mobile screens."""
+    return TABLE_RE.sub(lambda m: f'<div class="table-wrap">{m.group(0)}</div>', html)
+
+
+# ---------------------------------------------------------------- FAQ / JSON-LD
+
+MD_LINK_RE = re.compile(r"\[([^\]]+)\]\([^)]*\)")
+MD_INLINE_RE = re.compile(r"[*_`]+")
+
+
+def md_plain(text):
+    """Strip basic markdown (links, emphasis, code) for use in JSON-LD text."""
+    text = MD_LINK_RE.sub(r"\1", text)
+    text = MD_INLINE_RE.sub("", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def extract_faq(body):
+    """Parse an '## FAQ' section from markdown. Supports two shapes:
+       **Question?**\\nAnswer paragraph   and   ### Question?\\n\\nAnswer paragraph.
+       Returns a list of (question, answer) plain-text tuples."""
+    m = re.search(r"^##\s+FAQ\b.*$", body, re.M)
+    if not m:
+        return []
+    section = body[m.end():]
+    nxt = re.search(r"^##\s", section, re.M)
+    if nxt:
+        section = section[: nxt.start()]
+    paras = [p.strip() for p in re.split(r"\n\s*\n", section) if p.strip()]
+    faqs = []
+    i = 0
+    while i < len(paras):
+        p = paras[i]
+        h3 = re.match(r"###\s+(.+)", p)
+        if h3:
+            if i + 1 < len(paras) and not paras[i + 1].startswith("#"):
+                faqs.append((md_plain(h3.group(1)), md_plain(paras[i + 1])))
+                i += 2
+                continue
+            i += 1
+            continue
+        bold = re.match(r"\*\*(.+?)\*\*\s*(.*)", p, re.S)
+        if bold and bold.group(2).strip():
+            faqs.append((md_plain(bold.group(1)), md_plain(bold.group(2))))
+        i += 1
+    return faqs
+
+
+def jsonld_script(data):
+    return ('<script type="application/ld+json">'
+            + json.dumps(data, ensure_ascii=False)
+            + "</script>")
+
+
+def article_jsonld(a, cfg, site_url, faqs):
+    """Article + BreadcrumbList (+ FAQPage when the article has an FAQ section)."""
+    org = {"@type": "Organization", "name": cfg["site_name"], "url": f"{site_url}/"}
+    canonical = f'{site_url}/{a["url"]}'
+    blocks = [
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": a["title"],
+            "description": a["description"],
+            "datePublished": a["date_str"],
+            "dateModified": a["date_str"],
+            "author": org,
+            "publisher": org,
+            "url": canonical,
+            "mainEntityOfPage": {"@type": "WebPage", "@id": canonical},
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home",
+                 "item": f"{site_url}/"},
+                {"@type": "ListItem", "position": 2, "name": a["category"],
+                 "item": f'{site_url}/category-{slugify(a["category"])}.html'},
+                {"@type": "ListItem", "position": 3, "name": a["title"],
+                 "item": canonical},
+            ],
+        },
+    ]
+    if faqs:
+        blocks.append({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": q,
+                    "acceptedAnswer": {"@type": "Answer", "text": ans},
+                }
+                for q, ans in faqs
+            ],
+        })
+    return "\n".join(jsonld_script(b) for b in blocks)
 
 
 def parse_date(s):
@@ -124,6 +230,7 @@ def collect_articles(cfg):
             "tags": tags,
             "html": md_to_html(body, cfg),
             "words": len(body.split()),
+            "faqs": extract_faq(body),
         })
     articles.sort(key=lambda a: a["date"], reverse=True)
     return articles
@@ -154,7 +261,8 @@ def article_card(a):
     )
 
 
-def build_page(base, cfg, *, title, description, canonical, content, og_type="website"):
+def build_page(base, cfg, *, title, description, canonical, content,
+               og_type="website", jsonld=""):
     return render(
         base,
         site_name=cfg["site_name"],
@@ -165,8 +273,25 @@ def build_page(base, cfg, *, title, description, canonical, content, og_type="we
         canonical_url=canonical,
         og_type=og_type,
         content=content,
+        jsonld=jsonld,
         year=datetime.now().year,
     )
+
+
+def run_content_lint():
+    """Non-fatal lint pass: warn about content problems without failing the build."""
+    try:
+        import lint_content
+        issues = lint_content.run_lint(CONTENT)
+    except Exception as e:  # lint must never break the build
+        print(f"NOTE: content lint skipped ({e})")
+        return
+    if issues:
+        print(f"LINT WARNINGS ({len(issues)}) — build continues:")
+        for issue in issues:
+            print(f"  - {issue}")
+    else:
+        print("Content lint: all articles pass.")
 
 
 def main():
@@ -201,7 +326,7 @@ def main():
             items = "".join(
                 f'<li><a href="{r["url"]}">{escape(r["title"])}</a></li>' for r in rel
             )
-            related_html = (f'<aside class="related"><h2>Related reads</h2>'
+            related_html = (f'<aside class="related"><h2>Related articles</h2>'
                             f"<ul>{items}</ul></aside>")
         content = render(
             article_tpl,
@@ -216,7 +341,8 @@ def main():
         page = build_page(base, cfg, title=f'{a["title"]} — {cfg["site_name"]}',
                           description=a["description"],
                           canonical=f'{site_url}/{a["url"]}',
-                          content=content, og_type="article")
+                          content=content, og_type="article",
+                          jsonld=article_jsonld(a, cfg, site_url, a["faqs"]))
         (out / a["url"]).write_text(page, encoding="utf-8")
 
     # --- categories
@@ -251,10 +377,43 @@ def main():
         f"<h2>Latest articles</h2>"
         f'<div class="cards">{latest}</div>'
     )
+    site_jsonld = jsonld_script({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": cfg["site_name"],
+        "description": cfg["site_description"],
+        "url": f"{site_url}/",
+    })
     page = build_page(base, cfg, title=f'{cfg["site_name"]} — {cfg["site_tagline"]}',
                       description=cfg["site_description"],
-                      canonical=f"{site_url}/", content=index_content)
+                      canonical=f"{site_url}/", content=index_content,
+                      jsonld=site_jsonld)
     (out / "index.html").write_text(page, encoding="utf-8")
+
+    # --- 404 page (GitHub Pages serves 404.html from the publish root)
+    content_404 = (
+        '<section class="hero" style="text-align:center; padding:3rem 0;">'
+        '<h1>404 — page not found</h1>'
+        '<p class="lede">That page moved, was renamed, or never existed. '
+        "The gear reviews are still here though.</p>"
+        f'<p style="margin-top:1.5rem;"><a class="pill" href="{site_url}/">'
+        "&larr; Back to the BudgetRigLab homepage</a></p>"
+        "</section>"
+    )
+    page_404 = build_page(base, cfg, title=f'Page not found — {cfg["site_name"]}',
+                          description=f'404 — this {cfg["site_name"]} page does not exist.',
+                          canonical=f"{site_url}/404.html", content=content_404)
+    # Root-relative asset links so the 404 works from any missing path depth.
+    page_404 = (page_404
+                .replace('href="style.css"', f'href="{site_url}/style.css"')
+                .replace('href="favicon.svg"', f'href="{site_url}/favicon.svg"')
+                .replace('href="index.html"', f'href="{site_url}/"')
+                .replace('href="about.html"', f'href="{site_url}/about.html"')
+                .replace('href="affiliate-disclosure.html"',
+                         f'href="{site_url}/affiliate-disclosure.html"')
+                .replace('href="rss.xml"', f'href="{site_url}/rss.xml"')
+                .replace('href="sitemap.xml"', f'href="{site_url}/sitemap.xml"'))
+    (out / "404.html").write_text(page_404, encoding="utf-8")
 
     # --- static pages (about, affiliate disclosure)
     static_pages = []
@@ -282,14 +441,21 @@ def main():
     # --- .nojekyll (skip Jekyll processing on GitHub Pages)
     (out / ".nojekyll").write_text("", encoding="utf-8")
 
-    # --- sitemap.xml
-    urls = [f"{site_url}/"]
-    urls += [f"{site_url}/{a['url']}" for a in articles]
-    urls += [f"{site_url}/category-{slugify(c)}.html" for c in categories]
-    urls += [f"{site_url}/{p['url']}" for p in static_pages]
+    # --- sitemap.xml (lastmod: article/page frontmatter date; newest date for
+    #     index and category pages, since they change whenever content does)
     today = datetime.now().strftime("%Y-%m-%d")
+    newest = max((a["date_str"] for a in articles), default=today)
+    urls = [(f"{site_url}/", newest)]
+    urls += [(f"{site_url}/{a['url']}", a["date_str"]) for a in articles]
+    urls += [
+        (f"{site_url}/category-{slugify(c)}.html",
+         max(a["date_str"] for a in items))
+        for c, items in sorted(categories.items())
+    ]
+    urls += [(f"{site_url}/{p['url']}", p["date_str"]) for p in static_pages]
     entries = "".join(
-        f"  <url><loc>{escape(u)}</loc><lastmod>{today}</lastmod></url>\n" for u in urls)
+        f"  <url><loc>{escape(u)}</loc><lastmod>{lm}</lastmod></url>\n"
+        for u, lm in urls)
     (out / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -318,12 +484,16 @@ def main():
 
     # --- summary
     thin = [a for a in articles if a["words"] < 1000]
-    print(f"Built {len(articles)} articles, {len(categories)} categories, "
-          f"{len(static_pages)} static pages -> {out}")
+    faq_count = sum(1 for a in articles if a["faqs"])
+    print(f"Built {len(articles)} articles ({faq_count} with FAQPage schema), "
+          f"{len(categories)} categories, {len(static_pages)} static pages -> {out}")
     if thin:
         print("WARNING: articles under 1000 words (thin content hurts SEO):")
         for a in thin:
             print(f"  - {a['slug']} ({a['words']} words)")
+
+    # --- content lint (warnings only, never fails the build)
+    run_content_lint()
 
 
 if __name__ == "__main__":

@@ -28,3 +28,24 @@ python scripts\build.py
 Once you approve, tell me and I'll run it and confirm it succeeds (checking for the sub-1000-word thin-content warning, which this article clears comfortably).
 [07/04/2026 11:50:53] claude exited with code 0
 [07/04/2026 11:50:53] New article created (10 -> 11). Deploying...
+Building site...
+NOTE: affiliate_tag in config.json is still the placeholder 'CHANGEME-20'. Replace it after Amazon Associates approval.
+Built 11 articles, 6 categories, 2 static pages -> C:\Users\hfalm\OneDrive\Desktop\NicheSite\docs
+Committing and pushing...
+warning: in the working copy of 'scripts/new_article.ps1', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'content/how-to-choose-gaming-mouse-grip-type.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'scripts/logs/article-2026-07-04-1059.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'scripts/logs/article-2026-07-04-1128.log', LF will be replaced by CRLF the next time Git touches it
+[main a481140] Site update 2026-07-04 11:50
+ 15 files changed, 340 insertions(+), 16 deletions(-)
+ create mode 100644 content/how-to-choose-gaming-mouse-grip-type.md
+ create mode 100644 docs/how-to-choose-gaming-mouse-grip-type.html
+ create mode 100644 scripts/logs/article-2026-07-04-1002.log
+ create mode 100644 scripts/logs/article-2026-07-04-1057.log
+ create mode 100644 scripts/logs/article-2026-07-04-1059.log
+ create mode 100644 scripts/logs/article-2026-07-04-1128.log
+To https://github.com/hfalmalik/budgetriglab.git
+   50ad3b0..a481140  main -> main
+Pushed. GitHub Pages will update in ~1 minute.
+[07/04/2026 11:50:58] deploy exited with code 0
+[07/04/2026 11:50:58] Done.

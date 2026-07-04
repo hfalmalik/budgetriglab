@@ -65,14 +65,14 @@ Adaptive sync makes the monitor draw a frame *when the GPU finishes one*, instea
 2. **Panel:** IPS (all-round) or VA (dark-scene contrast, accept smearing)? Listing hides it? Assume the worst — or check the model number in a panel database.
 3. **Size/res:** 24"/1080p unless you have specific reasons.
 4. **Ports:** DisplayPort present? (Budget HDMI ports often cap below max refresh at 1080p.)
-5. **Stand:** height-adjustable is a genuine daily-comfort feature; tilt-only means budgeting $20 for a VESA arm. Check the VESA mount holes exist (nearly always 75×75 or 100×100).
+5. **Stand:** height-adjustable is a genuine daily-comfort feature; tilt-only means budgeting for a VESA arm — the [Amazon Basics single monitor arm](aff:B00MIBN16O) is the boring, reliable default and often costs less than the stand "upgrade" between monitor tiers. Check the VESA mount holes exist (nearly always 75×75 or 100×100).
 6. **Warranty/returns:** budget panels have higher dead-pixel rates. Buy where returns are painless, inspect on day one.
 7. **Ignore:** MPRT milliseconds, HDR badges, dynamic contrast, sRGB percentages, curves under 27".
 
 ## After it arrives: the 5-minute setup that most people skip
 
 1. **Set the refresh rate** — Windows Settings → Display → Advanced display → pick 144/165Hz. It ships at 60Hz. This is the #1 wasted-monitor mistake on Earth.
-2. **Use the DisplayPort cable**, usually included.
+2. **Use the DisplayPort cable**, usually included. If yours shipped without one (it happens on the cheapest listings), a [Cable Matters DisplayPort cable](aff:B00E3D9UJG) is under $10 and removes the "HDMI port capped at 120Hz" failure mode entirely.
 3. **Enable adaptive sync** in the monitor OSD *and* the GPU driver panel.
 4. **Set overdrive to the middle setting** — max overdrive causes inverse ghosting (bright coronas) on budget panels.
 5. **Verify at testufo.com** — the UFO should look distinctly smoother at your new refresh rate, with frame rate matching your Hz.

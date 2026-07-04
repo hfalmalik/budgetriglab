@@ -136,6 +136,17 @@ a:hover { text-decoration: underline; }
 .breadcrumb { font-size: 0.85rem; color: var(--text-dim); margin-top: 0.5rem; }
 
 /* tables (comparison tables scroll on small screens) */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1.25rem 0;
+  max-width: 100%;
+}
+.prose .table-wrap > table {
+  display: table;
+  margin: 0;
+  min-width: 100%;
+}
 .prose table {
   border-collapse: collapse;
   width: 100%;
