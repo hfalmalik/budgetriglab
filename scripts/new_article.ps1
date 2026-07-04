@@ -9,7 +9,24 @@ $LogDir = Join-Path $Root "scripts\logs"
 if (-not (Test-Path $LogDir)) { New-Item -ItemType Directory -Path $LogDir | Out-Null }
 $Log = Join-Path $LogDir ("article-" + (Get-Date -Format "yyyy-MM-dd-HHmm") + ".log")
 
-"[$(Get-Date)] Starting article generation..." | Tee-Object -FilePath $Log
+function Log($msg) {
+    $line = "[$(Get-Date)] $msg"
+    Add-Content -Path $Log -Value $line -Encoding UTF8
+    Write-Output $line
+}
+
+# Locate the Claude Code CLI: PATH first, then the desktop app's bundled copy (any version).
+$ClaudeExe = $null
+$cmd = Get-Command claude -ErrorAction SilentlyContinue
+if ($cmd) { $ClaudeExe = $cmd.Source }
+if (-not $ClaudeExe) {
+    $candidates = Get-ChildItem "$env:APPDATA\Claude\claude-code\*\claude.exe" -ErrorAction SilentlyContinue |
+        Sort-Object { [version]($_.Directory.Name -replace '[^\d.]','') } -Descending
+    if ($candidates) { $ClaudeExe = $candidates[0].FullName }
+}
+if (-not $ClaudeExe) { Log "ERROR: claude CLI not found (PATH or $env:APPDATA\Claude\claude-code)."; exit 1 }
+Log "Using claude at: $ClaudeExe"
+Log "Starting article generation..."
 
 $CountBefore = (Get-ChildItem "$Root\content\*.md").Count
 
@@ -21,18 +38,24 @@ You are the content engine for the affiliate site at $Root (BudgetRigLab - budge
 4. Run: python scripts/build.py  (use the python on PATH, or $env:LOCALAPPDATA\Programs\Python\Python312-arm64\python.exe if not found) and confirm it succeeds.
 "@
 
-# Invoke Claude Code headlessly
-claude -p $Prompt --permission-mode acceptEdits 2>&1 | Tee-Object -FilePath $Log -Append
+# Invoke Claude Code headlessly.
+# Via cmd /c so stderr is merged by cmd, not PowerShell: with ErrorActionPreference=Stop,
+# PS 5.1 turns any native stderr line piped through 2>&1 into a terminating error.
+$PromptFile = Join-Path $LogDir "prompt-tmp.txt"
+[System.IO.File]::WriteAllText($PromptFile, $Prompt, (New-Object System.Text.UTF8Encoding $false))
+cmd /c "type `"$PromptFile`" | `"$ClaudeExe`" -p --permission-mode acceptEdits >> `"$Log`" 2>&1"
+Log "claude exited with code $LASTEXITCODE"
+Remove-Item $PromptFile -ErrorAction SilentlyContinue
 
 $CountAfter = (Get-ChildItem "$Root\content\*.md").Count
 if ($CountAfter -le $CountBefore) {
-    "[$(Get-Date)] WARNING: no new article file detected. Check the log: $Log" | Tee-Object -FilePath $Log -Append
+    Log "WARNING: no new article file detected. Check the log: $Log"
     exit 1
 }
 
-"[$(Get-Date)] New article created ($CountBefore -> $CountAfter). Deploying..." | Tee-Object -FilePath $Log -Append
+Log "New article created ($CountBefore -> $CountAfter). Deploying..."
 
-# Build + commit + push
-& (Join-Path $PSScriptRoot "deploy.ps1") 2>&1 | Tee-Object -FilePath $Log -Append
-
-"[$(Get-Date)] Done." | Tee-Object -FilePath $Log -Append
+# Build + commit + push (cmd /c for the same stderr reason)
+cmd /c "powershell -NoProfile -ExecutionPolicy Bypass -File `"$(Join-Path $PSScriptRoot 'deploy.ps1')`" >> `"$Log`" 2>&1"
+Log "deploy exited with code $LASTEXITCODE"
+Log "Done."
