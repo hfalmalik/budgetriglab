@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOURUSERNAME.github.io/budgetriglab/sitemap.xml
+Sitemap: https://hfalmalik.github.io/budgetriglab/sitemap.xml
