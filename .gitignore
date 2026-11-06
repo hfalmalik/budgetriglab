@@ -12,3 +12,4 @@ Desktop.ini
 
 # Automation run logs - never publish (machine paths, workflow internals)
 scripts/logs/
+.gstack/

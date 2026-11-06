@@ -24,7 +24,7 @@ The [FIFINE K669B](aff:B06XCKGLTP) is the mic that quietly ended the "should I b
 
 **Typical price: $40–50**
 
-The [HyperX SoloCast](aff:B08KWP1KX3) costs a little more than the FIFINE and spends it on the two things the FIFINE lacks: a **tap-to-mute** sensor on top (tap it, an LED goes from solid to blinking — no more forgetting you're hot) and a genuinely clever flip-adjustable stand that lets you angle the capsule and even mount it under a monitor. The cardioid pickup is clean, slightly brighter than the K669B, and it's the most foolproof "unbox, plug in, sound good" mic here.
+The [HyperX SoloCast](aff:B08KFL3SFV) costs a little more than the FIFINE and spends it on the two things the FIFINE lacks: a **tap-to-mute** sensor on top (tap it, an LED goes from solid to blinking — no more forgetting you're hot) and a genuinely clever flip-adjustable stand that lets you angle the capsule and even mount it under a monitor. The cardioid pickup is clean, slightly brighter than the K669B, and it's the most foolproof "unbox, plug in, sound good" mic here.
 
 **Honest downsides:** like the FIFINE it has **no gain knob** — you set input level in software and leave it. The pickup is a touch more sensitive to room echo, so it rewards a mic close to your mouth. The included stand still sits on the desk, so the same thump problem applies until you arm-mount it. And there's no headphone jack for zero-latency monitoring.
 
@@ -34,7 +34,7 @@ The [HyperX SoloCast](aff:B08KWP1KX3) costs a little more than the FIFINE and sp
 
 **Typical price: $38–45**
 
-The [FIFINE Ampligame A6T](aff:B08T609695) is the streamer-starter pick because it puts the controls the other two hide in software right on the mic body: a **real input-gain dial** on the back and a **touch-sensitive mute pad** on top that lights up. Yes, it has RGB — a ring that pulses at the base — but underneath the gamer styling is a competent cardioid condenser with sound quality on par with the K669B. Being able to dial gain by ear and slap the top to mute, without alt-tabbing, is a bigger deal in a live stream than any spec.
+The [FIFINE Ampligame A6T](aff:B09Q2ZZGH2) is the streamer-starter pick because it puts the controls the other two hide in software right on the mic body: a **real input-gain dial** on the back and a **touch-sensitive mute pad** on top that lights up. Yes, it has RGB — a ring that pulses at the base — but underneath the gamer styling is a competent cardioid condenser with sound quality on par with the K669B. Being able to dial gain by ear and slap the top to mute, without alt-tabbing, is a bigger deal in a live stream than any spec.
 
 **Honest downsides:** the RGB is purely cosmetic and can't be turned off on some units without unplugging — mild annoyance if you record in the dark. The touch-mute pad can register a light bump as a tap. And it still rides that desk tripod, so arm-mount it. Build is a little more plastic-heavy than the metal K669B.
 
@@ -44,7 +44,7 @@ The [FIFINE Ampligame A6T](aff:B08T609695) is the streamer-starter pick because 
 
 **Typical price: $40–50**
 
-The [Razer Seiren Mini](aff:B08F9NLB86) is the pick for people fighting for desk space. It's a tiny sphere on a tilting stand with a **supercardioid** pattern — a tighter pickup angle than the standard cardioid mics above — which means it hears less of the room, your roommate, and the fan behind you. Point it at your mouth and it's impressively focused for the size, with a clean, neutral voice that punches above its footprint.
+The [Razer Seiren Mini](aff:B00PADOYP4) is the pick for people fighting for desk space. It's a tiny sphere on a tilting stand with a **supercardioid** pattern — a tighter pickup angle than the standard cardioid mics above — which means it hears less of the room, your roommate, and the fan behind you. Point it at your mouth and it's impressively focused for the size, with a clean, neutral voice that punches above its footprint.
 
 **Honest downsides:** minimalism has a price — there is **no mute button, no gain knob, and no headphone jack** at all. Everything is done in software. The tight supercardioid pattern is less forgiving of moving off-axis: lean back in your chair and your volume drops. And the tiny stand is, once again, a desk-thump conductor.
 
@@ -54,7 +54,7 @@ The [Razer Seiren Mini](aff:B08F9NLB86) is the pick for people fighting for desk
 
 **Typical price: $28–34**
 
-The [Tonor TC-777 kit](aff:B07VWLND79) wins on a metric the others quietly lose: it **comes with a scissor boom arm, shock mount, and pop filter in the box**. The mic capsule itself is the most ordinary here — a fine, slightly thinner-sounding cardioid condenser — but you're getting the *whole rig* for less than the bare price of a SoloCast. Because it's arm-mounted out of the box, it also sidesteps the desk-thump problem that plagues every tripod mic above without spending an extra cent.
+The [Tonor TC-777 kit](aff:B07WLWN2ZT) wins on a metric the others quietly lose: it **comes with a scissor boom arm, shock mount, and pop filter in the box**. The mic capsule itself is the most ordinary here — a fine, slightly thinner-sounding cardioid condenser — but you're getting the *whole rig* for less than the bare price of a SoloCast. Because it's arm-mounted out of the box, it also sidesteps the desk-thump problem that plagues every tripod mic above without spending an extra cent.
 
 **Honest downsides:** the capsule is the weakest link — clear and usable, but it won't match the K669B's warmth. The included boom arm is lightweight and can droop with the mic at full extension. There's no onboard mute or gain, and no headphone monitoring jack. It's a value *bundle*, not a value *microphone*.
 

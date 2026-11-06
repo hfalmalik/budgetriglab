@@ -41,7 +41,7 @@ The [Logitech C920x](aff:B085TFF7M1) is the default budget streaming cam for goo
 **Honest downside:** it's locked to **30fps at 1080p** (no 60fps), and the autofocus can "hunt" — briefly going soft — if you lean in and out of frame. For a static seated streamer that never matters; for a very animated one, lock focus manually in Logitech's software.
 
 ### Cheapest cam that's genuinely fine — NexiGo N60 (~$28–32)
-The [NexiGo N60](aff:B08931JBWW) is the rock-bottom pick that isn't junk. 1080p/30fps, a physical privacy shutter, and a built-in mic. In good light it's honestly close to the C920; the gap only shows in dim rooms.
+The [NexiGo N60](aff:B088TSR6YJ) is the rock-bottom pick that isn't junk. 1080p/30fps, a physical privacy shutter, and a built-in mic. In good light it's honestly close to the C920; the gap only shows in dim rooms.
 **Honest downside:** it has **no autofocus** (fixed focus) and a smaller sensor, so it gets noisy and soft fast once the light drops. It lives or dies on Step 5 — lighting. Bright room: great value. Dark room: disappointing.
 
 Prefer to buy used? A refurbished **Logitech C922** — the streaming-focused sibling of the C920 that adds a 720p/60fps mode — is a smart secondhand grab, and webcams are low-wear items that survive a previous owner fine. Check listings for the [Logitech C922](ebay:logitech+c922) and you'll often beat the price of a new budget cam for a better sensor.

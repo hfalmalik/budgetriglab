@@ -12,8 +12,8 @@ This is the cheaper, scrappier fight below our [full controllers-under-$40 round
 
 ## The 30-second verdict
 
-- **Want the most connection options (Bluetooth + dongle + wired), gyro aim, and phone/Switch support:** [GameSir Nova Lite](aff:B0CH7GT9YV)
-- **Want the lowest input latency, the most tank-like build, and 8BitDo's firmware track record:** [8BitDo Ultimate 2C](aff:B0CW3F8N2K)
+- **Want the most connection options (Bluetooth + dongle + wired), gyro aim, and phone/Switch support:** [GameSir Nova Lite](aff:B0CMCQ6WMC)
+- **Want the lowest input latency, the most tank-like build, and 8BitDo's firmware track record:** [8BitDo Ultimate 2C](aff:B0D736BCNM)
 - **Tied on:** the thing that matters most — Hall effect sticks that won't drift, at a price that feels like a mistake.
 
 ## Connectivity: the real dividing line

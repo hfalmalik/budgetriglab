@@ -12,8 +12,8 @@ They are close on price and identical in concept, but they are aimed at genuinel
 
 ## Pick this one in 20 seconds
 
-- **Smaller-to-medium hands, want RGB and onboard profiles, cheapest possible wireless:** [Logitech G305 Lightspeed](aff:B07M6Y7355)
-- **Medium-to-large hands, competitive FPS, want the lightest body and best switches:** [Razer Viper V3 HyperSpeed](aff:B0D1YXXTGP)
+- **Smaller-to-medium hands, want RGB and onboard profiles, cheapest possible wireless:** [Logitech G305 Lightspeed](aff:B07CMS5Q6P)
+- **Medium-to-large hands, competitive FPS, want the lightest body and best switches:** [Razer Viper V3 HyperSpeed](aff:B0CF4DJM7F)
 - **Both nail:** true low-latency wireless, single-AA convenience, flawless sensors, no charging cables to manage.
 
 If you already know your grip and hand size, that's basically the whole decision. If you don't, our [gaming mouse grip-type walkthrough](how-to-choose-gaming-mouse-grip-type.html) is worth five minutes before you spend a cent - grip fit outranks every spec below.

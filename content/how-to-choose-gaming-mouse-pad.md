@@ -56,27 +56,27 @@ Prices are typical U.S. street prices in 2026 and move around on sale. Owner ver
 ### Best all-round control cloth — SteelSeries QcK (Large, ~$13)
 The reference budget control pad and a genuine esports staple for over a decade. A soft, medium-friction cloth surface that's forgiving for stops and micro-adjustments, a grippy rubber base, and a price that's almost free. If you want one safe pick and stop reading, this is it.
 **Honest downside:** the classic QcK has **no stitched edge**, so the corners can start to fray after a year or two of heavy use — and the plain black cloth shows dust and skin oil, needing the occasional wash. Step up to the "QcK Edge" or "Heavy" versions for stitching and thickness.
-[SteelSeries QcK Large](aff:B0006NX3JW)
+[SteelSeries QcK Large](aff:B000UVRU6G)
 
 ### Best budget extended desk mat — Amazon Basics XXL Extended (~$12)
 The cheapest way to get the full keyboard-plus-mouse coverage. Around 900 × 400mm of low-friction-ish cloth with stitched edges and a rubber base, for the price of a sandwich. Covers your whole workspace and protects the desk.
 **Honest downside:** quality control is a lottery — the surface is a bit faster and less refined than a purpose-built gaming pad, and some units ship with a mild rubber smell that takes a few days to air out. It's *good enough*, not premium, but the value is unbeatable.
-[Amazon Basics XXL Extended](aff:B07DH5G7Z4)
+[Amazon Basics XXL Extended](aff:B06X19FLTC)
 
 ### Best premium-feel cloth (still cheap) — Corsair MM350 Pro Extended XL (~$30)
 If you'll spend a little more, this is a noticeably nicer surface: a thick, plush, spill-resistant cloth with a genuinely tough stitched border and a heavy anti-slip base that does not move. The micro-weave gives a consistent control glide that flatters cheap and expensive mice alike.
 **Honest downside:** at ~5mm it's on the thick/soft side, which a minority of players find too "cushiony," and the spill-proof coating means it's slightly faster than a bone-dry QcK. It's also the priciest pick here — overkill for casual play.
-[Corsair MM350 Pro Extended XL](aff:B07VWLNL5F)
+[Corsair MM350 Pro Extended XL](aff:B08JH8C5T5)
 
 ### Best speed surface — Razer Gigantus V2 (Medium, ~$10)
 A tighter, smoother micro-weave that leans faster than a QcK without going full hard-pad. Textured rubber base, available in sizes from medium up to 3XL, and cheap. A good match for high-sensitivity players who find control pads draggy.
 **Honest downside:** the Medium size (360 × 275mm) is genuinely small for low-sensitivity FPS — size up to Large or XXL if you make big sweeps. The faster surface also punishes shaky hands: precise stops take practice you don't need on a control pad.
-[Razer Gigantus V2 Medium](aff:B089ST4CV5)
+[Razer Gigantus V2 Medium](aff:B088539GLT)
 
 ### Best hard/hybrid pad — Razer Sphex V3 (Large, ~$20)
 An ultra-thin (0.5mm) hard polymer pad that adhesives flat to your desk for a fast, glassy, perfectly consistent glide that never absorbs sweat and never needs washing. If you love speed and hate the "sink" of cloth, this is the cheap way to try a hard surface.
 **Honest downside:** hard pads wear mouse skates noticeably faster and can feel scratchy and loud until you're used to them — and because it sticks flat, it's not something you reposition or roll up to travel with. Budget for replacement skates if you go this route.
-[Razer Sphex V3 Large](aff:B08ZS6PQXN)
+[Razer Sphex V3 Large](aff:B098NRDCC9)
 
 ## Quick comparison
 

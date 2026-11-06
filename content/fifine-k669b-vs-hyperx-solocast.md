@@ -13,7 +13,7 @@ The one-line version: **the K669B is the cheaper, more tweakable box; the SoloCa
 ## The 30-second verdict
 
 - **Cheapest, has a real gain knob, tinkerers:** [FIFINE K669B](aff:B06XCKGLTP)
-- **Tap-to-mute, better default sound, set-and-forget:** [HyperX SoloCast](aff:B08MD3TZPT)
+- **Tap-to-mute, better default sound, set-and-forget:** [HyperX SoloCast](aff:B08KFL3SFV)
 - **Tied on:** cardioid pickup pattern, USB plug-and-play (no driver, no interface), no built-in headphone jack, and the fact that *both* embarrass any headset boom mic.
 
 Both are side-address cardioid condensers, both connect over a single USB cable, and both work the instant Windows, macOS, PS5, or a phone (with an adapter) sees them. Neither needs phantom power, an audio interface, or software. That's the whole appeal of this tier.

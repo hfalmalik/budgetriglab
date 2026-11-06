@@ -26,7 +26,7 @@ The single best predictor of whether you'll love a headset is **clamp force** �
 
 Pad material is the quiet third factor. **Pleather (leatherette)** isolates noise and thumps bass but traps heat and flakes after 18–24 months. **Fabric/velour** breathes and stays cool but leaks sound both ways and gives you less bass. If you run hot or wear glasses, fabric or a headset with glasses channels is worth more to you than any audio spec — the same logic we apply when picking a [gaming mouse pad by feel rather than marketing](how-to-choose-gaming-mouse-pad.html): the material against you decides comfort, not the brand.
 
-**The good news:** pads are replaceable. A $12–18 set of [Brainwavz hybrid replacement earpads](aff:B07VBWNS9G) can turn a hot, clamping headset cool and roomy, and refreshes an old pair for a fraction of a new headset. Budget headsets are worth keeping alive this way — over three years, one $15 pad swap is far cheaper than replacing a $50 headset because the foam crumbled.
+**The good news:** pads are replaceable. A $12–18 set of [Brainwavz hybrid replacement earpads](aff:B00ZGGG3KY) can turn a hot, clamping headset cool and roomy, and refreshes an old pair for a fraction of a new headset. Budget headsets are worth keeping alive this way — over three years, one $15 pad swap is far cheaper than replacing a $50 headset because the foam crumbled.
 
 ## Wired vs wireless: the real tradeoff (with numbers)
 
@@ -42,7 +42,7 @@ The trap is buying a cheap "wireless" headset that's *Bluetooth only*. For gamin
 - **Buy wired if** your budget is under ~$70, you sit at a desk, or you never want to think about charging. Every dollar goes to drivers, mic, and comfort instead of a radio and battery. At $60 all-in, wired beats wireless on every metric that matters.
 - **Buy 2.4 GHz wireless if** you have ~$90+ to spend, you move around (couch, multi-room), or cable snag genuinely annoys you — and you accept paying ~$30–40 of that budget for the freedom rather than better sound.
 
-For a concrete wired starting point, the [HyperX Cloud Stinger 2](aff:B0B8PGDMWK) (~$40) is the low-risk default — light, warm-sounding, mic clear enough that nobody complains. If you'd rather step into a neutral, competition-friendly tuning, the [SteelSeries Arctis Nova 1](aff:B0BFF2Z7CX) (~$55) trades bass for footstep clarity and a slightly better mic. When you're ready to actually pay for the wireless convenience, the [SteelSeries Arctis Nova 4 Wireless](aff:B0DGT3W8YH) (~$100) is the sensible entry point with a proper 2.4 GHz dongle and ~35-hour battery.
+For a concrete wired starting point, the [HyperX Cloud Stinger 2](aff:B0B8PGDMWK) (~$40) is the low-risk default — light, warm-sounding, mic clear enough that nobody complains. If you'd rather step into a neutral, competition-friendly tuning, the [SteelSeries Arctis Nova 1](aff:B0B8Q4CR52) (~$55) trades bass for footstep clarity and a slightly better mic. When you're ready to actually pay for the wireless convenience, the [SteelSeries Arctis Nova 4 Wireless](aff:B0C1P7XV7V) (~$100) is the sensible entry point with a proper 2.4 GHz dongle and ~35-hour battery.
 
 ## Sound: what "drivers" and "surround" really mean
 
@@ -59,7 +59,7 @@ Two myths cost budget buyers the most money.
 Your mic is the one part of the headset *you* never hear and everyone else does. Budget headset mics range from "fine for Discord" to "please mute yourself." Two things help:
 
 - A **flip-to-mute** boom (flip up = muted) is more reliable than an inline button and gives clearer pickup than the tiny holes on Bluetooth earbuds.
-- If you stream or record, no built-in headset mic will satisfy you. That's a job for a dedicated USB mic — see our [budget USB gaming mic picks under $50](best-budget-usb-gaming-mics-under-50.html) — or a clip-on boom mic like the [Antlion ModMic Uni](aff:B00XXO7BFS) (~$50) that upgrades any headphones you already love.
+- If you stream or record, no built-in headset mic will satisfy you. That's a job for a dedicated USB mic — see our [budget USB gaming mic picks under $50](best-budget-usb-gaming-mics-under-50.html) — or a clip-on boom mic like the [Antlion ModMic Uni](aff:B07YN25KWN) (~$50) that upgrades any headphones you already love.
 
 ## Marketing traps to ignore on the box
 

@@ -31,4 +31,4 @@ BudgetRigLab uses AI tools to help research, draft, and maintain articles. Every
 
 ## Affiliate transparency
 
-As an Amazon Associate, BudgetRigLab earns from qualifying purchases. That relationship never changes a ranking. The full policy is on the [affiliate disclosure page](affiliate-disclosure.html).
+BudgetRigLab may earn a commission when you buy through an affiliate link (eBay Partner Network today; Amazon Associates once approved). That relationship never changes a ranking. The full policy is on the [affiliate disclosure page](affiliate-disclosure.html).

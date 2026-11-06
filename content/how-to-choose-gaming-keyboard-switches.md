@@ -60,21 +60,21 @@ Prices are typical U.S. street prices in 2026 and move around on sale. Switches 
 ### Linear pick — Gateron G Pro 3.0 Red (~$18–22 / 35-pack)
 Pre-lubed from the factory, smooth, and light (45g). Gateron's Pro line fixed the scratchiness that used to plague cheap linears, and factory lube means you skip the tedious hand-lubing hobbyists do. On a hot-swap board these are the easiest "instant upgrade" from stock switches.
 **Honest downside:** you'll likely need two or three 35-packs for a full-size board, which stacks the cost up toward a cheap keyboard's price. And at 45g with no bump, heavy-handed typists will bottom them out loudly despite the smooth action.
-[Gateron G Pro 3.0 Red switches](aff:B09QMBP4X7)
+[Gateron G Pro 3.0 Red switches](aff:B0C65CNYP9)
 
 ### Tactile pick — Akko V3 Cream Blue Pro (~$20–25 / 45-pack)
 A medium-strong tactile bump that's noticeably meatier than a default brown, factory-lubed, in a good-value 45-pack. A great "I want to actually *feel* the key" choice that stays office-quiet.
 **Honest downside:** the confusingly-named "Cream Blue" is a *tactile* switch, not clicky — the "blue" here is just the housing color, which trips up first-time buyers expecting a click. The stronger bump also tires some fingers over marathon sessions.
-[Akko V3 Cream Blue Pro tactile switches](aff:B0BXWZP2YH)
+[Akko V3 Cream Blue Pro tactile switches](aff:B0C3H7PR1Z)
 
 ### Clicky pick — Kailh Box White (~$16–20 / 35-pack)
 The clicky switch enthusiasts recommend over cheap Cherry Blues: a crisp, consistent click with a "Box" stem design that resists dust and wobble. Lighter and snappier than an MX Blue.
 **Honest downside:** it is unapologetically loud — do not buy these if anyone shares your space or hears your mic. The Box stem is also incompatible with a few older keycap sets that use non-standard mounts.
-[Kailh Box White clicky switches](aff:B07CMM9CD9)
+[Kailh Box White clicky switches](aff:B0B1HWQH47)
 
 ### The smart way to try them — a hot-swap board
 Buying loose switches only makes sense if your keyboard is **hot-swappable** (you pull switches out and push new ones in by hand, no soldering). The cheapest way in is a hot-swap board like the Royal Kludge RK61, which lets you swap in any of the switches above in minutes. We break that board down against the popular Redragon K552 in our [K552 vs RK61 head-to-head](redragon-k552-vs-royal-kludge-rk61.html) — and note there that the classic K552 is *not* hot-swap, so its switches are fixed for life.
-[Royal Kludge RK61 hot-swap keyboard](aff:B07QF3ZL5H)
+[Royal Kludge RK61 hot-swap keyboard](aff:B0832LSV8N)
 
 ## How to actually decide
 
